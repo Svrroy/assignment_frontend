@@ -1,0 +1,806 @@
+body, html {
+	width: 100%;
+}
+
+body {
+	background: #ECEFF1;
+	position: relative;
+}
+
+body > div {
+	width: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+.M-16 {
+	border-radius: 40px;
+}
+
+.header {
+	/*width: 1084px ! important;*/
+	height: 70px;
+	margin: 0 auto;
+	filter: blur(14px), brightness(-0.4), opacity(50%);
+	/*column-gap: 5px;*/
+}
+
+.logo {
+	/*margin-left: 6vw;
+	margin-top: 1.5vw;
+	margin-bottom: 1.5vw;*/
+}
+
+.logo img {
+	height: 37px;
+	width: 148px;
+	margin-top: 16px;
+}
+
+.business {
+	padding-left: 0;
+}
+
+.business img {
+	height: 30px;
+	width: 164px;
+	margin-top: 20px;
+}
+.M-log-in{
+	width: 100%;
+	height: auto;
+}
+.header .btn-primary {
+	background-image: linear-gradient(to right, blue, #4d88ff);
+	margin-top: 20px;
+	height: 30px;
+	width: 164px;
+	font-size: 12px;
+}
+/*#myModalLogin*/
+#myModalLogin .modal {
+	background-color: transparent;
+}
+
+#myModalLogin .modal-dialog {
+	top: 10%;
+	width: 50%;
+	height: auto;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 15px #00000029;
+    border-radius: 15%;
+}
+
+#myModalLogin .modal-body {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#myModalLogin .modal-body > div {
+	padding: 0;
+}
+
+#myModalLogin .leaf1 {
+	/*margin-right: -27px;*/
+}
+
+#myModalLogin .leaf1 img {
+	width: 50%;
+	/* height: 98px; */
+	margin-left: 60%;
+}
+
+#myModalLogin .leaf-banda {
+	display: inline-flex;
+}
+
+#myModalLogin .leaf2 img {
+	width: 100%;
+	/* height: 110px; */
+	padding-top: 100%;
+}
+#myModalLogin .banda img {
+	/* width: 284px;
+	height: 293px; */
+	width: 80%;
+	margin: 10% 0px 0px 15%;
+}
+
+#myModalLogin .wander-text {
+	/* margin: 9px 50px 0px 80px; */
+	   margin: 10% 10% 0% 18%;
+}
+
+#myModalLogin .wander-text h3 {
+	text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 750px;
+    letter-spacing: 0;
+    color: #707070;
+	/* margin: 0; */
+	/* margin-bottom: 1%; */
+}
+
+#myModalLogin .wander-text p {
+	text-align: left;
+    font: 12px/14px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    /* margin: 0; */
+}
+
+#myModalLogin .leaf3 {
+	margin-left: 27px;
+	margin-top: 11px;
+	width: 258px;
+	height: 147px;
+}
+
+#myModalLogin .login-with {
+	margin-top: 12%;
+	margin-bottom: 5%;
+	display: inline-flex;
+}
+
+#myModalLogin .login-with h2 {
+	text-align: left;
+	font-size: 30px/40px;
+	font-family: Muli;
+    font-weight: 750px;
+    letter-spacing: 0;
+    color: #024959;
+    margin: 0;
+}
+
+#myModalLogin .login-with img {
+	height: 50%;
+	width: 20%;
+	margin: 4%;
+	/* margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 30px; */
+}
+
+#myModalLogin .login-with p {
+	font: 12px/15px Muli;
+	font-weight: 600px;
+    letter-spacing: 0;
+    color: #707070;
+    /* margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 18px; */
+}
+
+#myModalLogin form label {
+	text-align: left;
+    font: 12px/15px Muli;
+    letter-spacing: 0;
+    color: #707070;
+	opacity: 1;
+	/* margin-top: 6%; */
+	margin-bottom: 4%;
+}
+
+#myModalLogin form input {
+	margin-top: 0;
+	/* padding: 8%; */
+	height: 44px;
+}
+
+#myModalLogin form input :: placeholder {
+	text-align: left;
+    font: 18px/24px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 0.5;
+}
+
+#myModalLogin form button {
+	width: 100%;
+	height: 44px;
+	margin-top: 1%;
+	background-color: #039BE5;
+	color: white;
+	font-size: 18px;
+	border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+
+/*.input-pass {
+    background-image: url("icons/copyright.png");
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+}
+*/
+#myModalLogin a.forgot {
+    font: 14px/18px Muli;
+    letter-spacing: 0;
+    color: #1A3873;
+}
+
+#myModalLogin p {
+	font: 16px/22px Muli;
+	margin-top: 7%;
+}
+
+#myModalLogin p > a {
+	font-weight: 750;
+}
+/*#myModalLogin*/
+
+
+/*#myModalSignup*/
+#myModalSignup .modal {
+	background-color: transparent;
+}
+
+#myModalSignup .modal-dialog {
+	top: 8%;
+	width: 60%;
+	height: 80%;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+	border-radius: 40px;
+}
+
+.scroll{
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+	overflow: -moz-scrollbars-none;
+	width: 100%;
+	height: 80%;
+}
+
+.fixed {
+	position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+.scroll::-webkit-scrollbar { 
+	display: none; 
+} 
+
+#myModalSignup .modal-body {
+	padding: 0;
+}
+
+#myModalSignup .container .row > div {
+	padding: 0;
+}
+.fixed{
+	position: sticky;
+}
+#myModalSignup .leaf1 {
+	/*margin-right: -27px;*/
+}
+
+#myModalSignup .leaf1 img {
+	width: 40%;
+	/* height: 110px; */
+	margin-left: 60%;
+}
+
+#myModalSignup .leaf-banda {
+	display: inline-flex;
+}
+
+#myModalSignup .leaf2 img {
+	width: 90%;
+	/* height: 116px; */
+	margin-top: 60%;
+}
+
+#myModalSignup .banda img {
+	width: 70%;
+	/* height: 210px; */
+	margin: 1% 0px 0px 3px;
+}
+#myModalSignup .leaf3 img {
+   width: 70%;
+   margin-top: 10%;
+}
+#myModalSignup .wander-text {
+	margin: 11px 66px 0px 105px;
+}
+
+#myModalSignup .wander-text h3 {
+	text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 750;
+    letter-spacing: 0;
+    color: #707070;
+	margin: 0;
+	margin-left: 3%;
+}
+
+#myModalSignup .wander-text p {
+	text-align: left;
+    font: 14px/18px Muli;
+    letter-spacing: 0;
+    color: #707070;
+	margin: 0;
+	margin-left: 3%;
+}
+
+#myModalSignup .leaf3 {
+	margin-left: 21px;
+	margin-top: 34px;
+	width: 265px;
+	height: 139px;
+}
+
+#myModalSignup .signup-with {
+	margin: 28px 0px 0px 0px;
+	display: inline-flex;
+}
+
+#myModalSignup .signup-with h2 {
+	text-align: left;
+    font: 40px/50px Muli;
+    font-weight: 750;
+    letter-spacing: 0;
+    color: #707070;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+
+#myModalSignup .signup-with img {
+	height: 33px;
+	width: 33px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 15px;
+}
+
+#myModalSignup .signup-with p {
+	font: 12px/15px Muli;
+	font-weight: 600;
+    letter-spacing: 0;
+    color: #707070;
+    margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+}
+
+#myModalSignup form label {
+	text-align: left;
+    font: 12px/15px Muli;
+    letter-spacing: 0;
+    color: #707070;
+}
+
+#myModalSignup form label.control-label {
+	text-align: left;
+    font: 12px/15px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    margin: 0;
+}
+
+#myModalSignup form label span {
+	color: #E5CF08;
+}
+
+#myModalSignup form input {
+	margin-top: 6px;
+	padding: 10px;
+	height: 44px;
+}
+
+#myModalSignup form input[type=checkbox] {
+	margin: 0 auto;
+	height: 12px;
+}
+
+#myModalSignup form input :: placeholder {
+	text-align: left;
+    font: 18px/24px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 0.5;
+}
+
+#myModalSignup form button {
+	width: 100%;
+	height: 44px;
+	font-size: 18px;
+	margin-top: 3px;
+	background-image: linear-gradient(to right, #ffdf31, #ff9900);
+	border: 0;
+    outline: 0;
+}
+
+#myModalSignup .links {
+	margin-top: 11px;
+}
+
+#myModalSignup .links p {
+    font: 16px/20px Muli;
+    letter-spacing: 0;
+    color: #19357A;
+}
+
+#myModalSignup .links a{
+	font-weight: 750;
+}
+/*#myModalSignup*/
+
+/*#myModalReset*/
+.M-18{
+   width: 100%;
+   height: auto;
+}
+.M-reset{
+    width: 100%;
+}
+/* .reset-11{
+	all: unset; 
+} */
+#myModalReset .modal, #myModalReset1 .modal, #myModalReset2 .modal {
+	background-color: transparent;
+}
+
+#myModalReset .modal-dialog, #myModalReset1 .modal-dialog, #myModalReset2 .modal-dialog {
+	top: 10%;
+	width: 55%;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 15px #00000029;
+    border-radius: 60px;
+}
+
+#myModalReset .modal-body, #myModalReset1 .modal-body, #myModalReset2 .modal-body {
+	padding: 0px;
+}
+
+#myModalReset .container .row > div, #myModalReset1 .container .row > div, #myModalReset2 .container .row > div {
+	padding: 0px;
+}
+
+#myModalReset .leaf1, #myModalReset1 .leaf1, #myModalReset2 .leaf1 {
+	/*margin-right: -27px;*/
+}
+
+#myModalReset .leaf1 img, #myModalReset1 .leaf1 img, #myModalReset2 .leaf1 img {
+	width: 40%;
+	/* height: 20%; */
+	margin-left: 65%;
+}
+
+#myModalReset .leaf-que, #myModalReset1 .leaf-que, #myModalReset2 .leaf-que {
+	display: inline-flex;
+}
+
+#myModalReset .leaf2 img, #myModalReset1 .leaf2 img, #myModalReset2 .leaf2 img {
+	width: 100%;
+	/* height: 20%; */
+	margin-top: 70%;
+}
+#myModalReset .que img, #myModalReset1 .que img, #myModalReset2 .que img {
+	width: 100%;
+	/* height: 279px; */
+	margin: 20% 9% 0%  1%;
+}
+
+#myModalReset .leaf3, #myModalReset1 .leaf3, #myModalReset2 .leaf3 {
+	/* margin-left: 12%; */
+	/* margin-top: 5%; */
+	width: 40%;
+	/* height: 40%; */
+}
+
+#myModalReset .reset-text, #myModalReset1 .reset-text, #myModalReset2 .reset-text {
+	margin-top: 25% ;
+}
+
+#myModalReset .reset-text h3, #myModalReset1 .reset-text h3, #myModalReset2 .reset-text h3 {
+	text-align: left;
+    font: 30px/53px Muli;
+    font-weight: 750;
+    letter-spacing: 0;
+    color: #707070;
+    /* margin-bottom: 10%; */
+    /* margin-top: 5%; */
+    text-decoration: none;
+}
+
+#myModalReset .reset-text p, #myModalReset1 .reset-text p {
+	text-align: left;
+    font: 16px/18px Muli;
+    letter-spacing: 0;
+	color: #707070;
+	margin-top: 8%;
+    margin-bottom: 8%;
+    text-decoration: none;
+}
+#myModalReset2 .reset-text p{
+	text-align: left;
+    font: 16px/18px Muli;
+    letter-spacing: 0;
+	color: #707070;
+	/* margin-top: 8%; */
+    /* margin-bottom: 8%; */
+    text-decoration: none;
+}
+
+#myModalReset form label, #myModalReset1 form label, #myModalReset2 form label {
+	text-align: left;
+    font: 14px/16px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 1;
+}
+
+#myModalReset form input, #myModalReset1 form input, #myModalReset2 form input {
+	margin-top: 6px;
+	padding: 10px;
+	height: 44px;
+}
+
+#myModalReset form input :: placeholder, #myModalReset1 form input :: placeholder, #myModalReset2 form input :: placeholder {
+	text-align: left;
+    font: 18px/24px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 0.5;
+}
+
+#myModalReset form button, #myModalReset1 form button, #myModalReset2 form button {
+	width: 100%;
+	height: 44px;
+	margin-top: 14px;
+	background-color: #1A1746;
+	color: white;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 0;
+    outline: 0;
+}
+
+#myModalReset .links, #myModalReset1 .links, #myModalReset2 .links {
+	margin-top: 15%;
+	margin-bottom: 5%;
+}
+
+#myModalReset .links a, #myModalReset1 .links a, #myModalReset2 .links a {
+    font: 16px/20px Muli;
+    font-weight: 750;
+    letter-spacing: 0;
+    color: #19357A;
+}
+
+.contact-us {
+	/*width: 1075px ! important;*/
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+.contact-us .message {
+	/*width: 730px;
+	height: 72px;
+*/	margin: 0 auto;
+}
+
+.message h3 {
+	text-align: center;
+    font: 29px/36px;
+    font-weight: 900;
+
+    font-family: 'Muli';
+    letter-spacing: 0;
+    color: #1A1746;
+}
+
+.message span {
+	font-weight: 600;
+}
+
+.contact-us > div.row {
+	margin-top: 30px;
+	/*height: 90px;*/
+	/*width: 900px;*/
+	margin-left: auto;
+	margin-right: auto;
+	background: transparent linear-gradient(258deg, #6D0038 0%, #B4025E 43%, #C9006A 100%);
+}
+
+.contact-us div.row img {
+	height: 25px;
+	width: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 33px;
+}
+
+.contact-us form input {
+	color: white;
+	border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    opacity: 0.7;
+    width: 100%;
+    margin-top: 36px;
+}
+
+.contact-us ::placeholder {
+	text-align: left;
+    font: lighter 16px/36px Muli;
+    letter-spacing: 0;
+    color: #ECEFF1;
+}
+
+.contact-us .form-group button {
+	font: 14px/36px Muli;
+	font-weight: 650;
+	margin-top: 22px;
+	height: 47px;
+	background: #6D0038;
+	border-radius: 25px;
+	border: 0;
+}
+
+.contact-us .form-group button.btn-danger {
+	color: #e75480;
+	width: 118px;
+	opacity: 0.8;
+}
+
+.contact-us .form-group button.btn-default {
+	color: #6D0038;
+	background-color: white;
+	width: 168px;
+}
+
+.social {
+	margin-top: 36px;
+}
+
+.social h3 {
+	text-align: center;
+    font: bold 24px/30px Muli;
+    letter-spacing: 0;
+    color: #1A1746;
+    height: 30px;
+}
+
+.social ul {
+	border-radius: 25px;
+	box-shadow: 0px 4px 12px #34A0FF38;
+	background: white;
+	height: 46px;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0;
+	/*transform: translateX(50%);*/
+}
+
+.social ul li {
+	padding: 8px 30px 8px 30px;
+}
+
+.social ul img {
+	width: 30px;
+	height: 25px;
+}
+
+.social p {
+	text-align: center;
+    font: bold 16px/20px Muli;
+    letter-spacing: 0;
+    color: #0D47A1;
+    margin-top: 8px;
+}
+
+.footer {
+	/*width: 1075px ! important;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.footer > div.row {
+	width: 100%;
+	padding: 10px;
+}
+
+.footer1 {
+	padding-right: 0;
+}
+
+.footer1 h3 {
+	text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 900;
+    
+    letter-spacing: 0;
+    color: #1A1746;
+    margin-top: 11px;
+    margin-bottom: 0;
+    float: bottom;
+}
+
+.footer1 img {
+	padding-right: 0;
+	height: 37.3px; 
+	width: 37.3px;
+}
+
+.footer1 p {
+	text-align: left;
+    font: 14px/20px Muli;
+    
+    letter-spacing: 0;
+    color: #1565C0;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.footer1 h3 {
+		padding-left: 10px;
+	}
+	.footer1 p {
+		margin-top: 0;
+	}
+}
+
+.copyright {
+	margin-top: 16px;
+}
+
+.copyright img {
+	width: 18.2px;
+	height: 18.2px;
+}
+
+@media only screen 
+and (max-width : 770px){
+    .copyright img {
+	    width: 15.2px;
+	    height: 15.2px;
+    }
+}
+
+.copyright h6 {
+	text-align: left;
+    font: 10px/20px Muli;
+   
+    letter-spacing: 0;
+    color: #888888;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.footer2, .footer3 {
+	padding-left: 30px;
+}
+
+.footer4 {
+	padding: 0;
+}
+
+.footer2 h3, .footer3 h3, .footer4 h3 {
+	text-align: left;
+    font-family: 'Muli';
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 750;
+    letter-spacing: 0;
+    color: #0D47A1;
+}
+
+.footer2 a h4, .footer3 a h4, .footer4 a h4 {
+	text-align: left;
+	
+    font: 14px/25px Muli;
+    font-weight: 600;
+
+    letter-spacing: 0;
+    color: #0D47A1;
+}

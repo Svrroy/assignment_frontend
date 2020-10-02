@@ -1,0 +1,633 @@
+@import 'commonFooter.css';
+@import 'modal.css';
+body,
+html {
+    width: 100%;
+}
+
+body {
+    background: #ECEFF1;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*  loader css start here*/
+
+.loader-outer {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-outer-progress {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-icon {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.loader-outer img {
+    width: 80px;
+}
+
+.loader_spin {
+    overflow: hidden;
+    display: table;
+}
+
+.loader-inner p {
+    font-size: 18px;
+    color: #b99750;
+    font-weight: bold;
+}
+
+
+/*  loader css end here*/
+
+.header {
+    width: 1084px ! important;
+    height: 70px;
+    margin: 0 auto;
+    filter: blur(14px), brightness(-0.4), opacity(50%);
+    /*column-gap: 5px;*/
+}
+
+.logo img {
+    height: 37px;
+    width: 148px;
+    margin-top: 16px;
+}
+
+.business {
+    padding-left: 0;
+}
+
+.business img {
+    height: 30px;
+    width: 164px;
+    margin-top: 20px;
+}
+
+.certify {
+    height: 70px;
+}
+
+.header .btn-primary {
+    background-image: linear-gradient(to right, blue, #4d88ff);
+    margin-top: 20px;
+    height: 30px;
+    width: 164px;
+    font-size: 12px;
+}
+
+
+/*#myModalLogin*/
+
+.hero-image {
+    z-index: -1000;
+    height: 396px;
+}
+
+.holiday-text {
+    position: absolute;
+    top: 45px;
+    width: 1084px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.holiday-text p {
+    text-align: left;
+    font: 24px/30px Muli;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.holiday-text h2 {
+    font: 41px/51px Muli;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 0;
+}
+
+.holiday-text h3 {
+    text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    width: 396px;
+    margin-top: 11px;
+}
+
+.activities {
+    position: absolute;
+    height: 84px;
+    width: 900px;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #E8ECFF;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /*display: inline-block;*/
+}
+
+.activities ul {
+    height: 74px;
+    position: absolute;
+    width: 570px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.activities ul li a {
+    /*width: 16.2%;*/
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-top: 0;
+    /*display: inline-block;*/
+}
+
+.activities ul img {
+    width: 47px;
+    height: 47px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+}
+
+
+/*.activities  li {
+	float: none;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}*/
+
+
+/*.activities  li a {
+	padding: 1vw 2vw 1vw 2vw;
+	margin: 0 auto;
+}*/
+
+.activities ul h5 {
+    text-align: center;
+    font: 12px/15px Muli, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #000000;
+    margin: 0;
+}
+
+.tab-content {
+    margin: auto;
+    width: 900px;
+    height: 135px;
+}
+
+.tab-content img {
+    width: 19px;
+    height: 25px;
+    background: transparent;
+}
+
+#treks ul {
+    /*	display: inline-block;*/
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 4px 12px #34A0FF38;
+    background: white;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0px 100px 0px 100px;
+    justify-content: flex-end;
+    /*transform: translateX(50%);*/
+}
+
+#treks ul li {
+    margin: 14px 15px 0px 15px;
+    padding: 0;
+}
+
+#treks ul li span {
+    text-align: center;
+    font: 18px/23px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #646464;
+    margin: 0;
+}
+
+.visual {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#treks ul li:nth-of-type(3)>div.visual {
+    width: 90%;
+}
+
+.item-info {
+    text-align: center;
+    font: 16px/20px Muli;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #024959;
+    height: 34px;
+    vertical-align: middle;
+    /*padding-top: 7px;*/
+    margin-top: 10px;
+    border: 1px solid #1565C0;
+    border-radius: 17px;
+}
+
+.search {
+    position: absolute;
+    width: 184px;
+    height: 44px;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 21px;
+}
+
+.search button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: -22px;
+    font: 15px Muli;
+    font-weight: 600;
+    border-radius: 22px;
+    border: 0;
+    background-image: linear-gradient(to right, #3BD0FF, #253AF9);
+}
+
+div.sideSearch {
+    position: fixed;
+    left: 2px;
+    top: 485px;
+    /*bottom: 150px;*/
+    width: 47px;
+    z-index: 100;
+    background: #ECEFF1;
+    box-shadow: 0px 4px 12px #0000001A;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.sideSearch img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22px;
+    height: 22px;
+    margin: 15px;
+}
+
+.planning {
+    width: 1084px;
+    margin-top: 136px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.planning .container {
+    padding: 0;
+    width: 100%;
+}
+
+.planning h2 {
+    text-align: center;
+    font: 34px/43px Muli;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #024959;
+    width: 100%;
+    margin: 0;
+    opacity: 1;
+}
+
+.planning .col-xs-4 {
+    padding: 0;
+}
+
+.planning img {
+    width: 100%;
+}
+
+.travel {
+    width: 1084px;
+    margin: 0 auto;
+}
+
+.travel>.row {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.travel>.row>.state {
+    margin-left: 45px ! important;
+    margin-right: -15px;
+    border-radius: 15px;
+    max-height: 312px;
+    min-height: 310px;
+}
+
+.travel>h2 {
+    text-align: center;
+    font: 34px/43px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #024959;
+}
+
+.travel h3 {
+    text-align: center;
+    font: 20px/24px Muli;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.travel h4 {
+    text-align: center;
+    font: 20px/24px Muli;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+    margin-top: 0;
+}
+
+.travel img.hiking {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    /*display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.travel>div>img:nth-of-type(1) {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 15px;
+    top: 42%;
+    z-index: 100;
+}
+
+.travel>div>img:nth-of-type(2) {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    right: -5px;
+    bottom: 42%;
+    z-index: 100;
+}
+
+.travel h5 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    font: 18px/34px Muli;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.future-treks {
+    width: 1084px;
+    margin: 60px auto 200px auto;
+}
+
+.future-treks h1 {
+    text-align: center;
+    font: 34px/43px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #024959;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.future-treks>div.row {
+    margin: 0;
+}
+
+.future-treks>div.row>div {
+    padding: 0;
+    border: 10px solid #ECEFF1;
+}
+
+.future-treks h1>span {
+    font-weight: 900;
+}
+
+div.white {
+    position: relative;
+    background-color: white;
+    width: 251px;
+    height: 100px;
+}
+
+.future-treks h3 {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    left: 17px;
+    width: 90px;
+    height: 18px;
+    text-align: center;
+    font: 12px/15px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    background-color: green;
+    opacity: 1;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 4px 12px #00000029;
+}
+
+.future-treks img.trek-bg {
+    width: 251px;
+    height: 130px;
+}
+
+#Easy {
+    background-color: green;
+}
+
+#Moderate {
+    background-color: orange;
+}
+
+#Hard {
+    background-color: #FF5700;
+}
+
+
+/*.future-treks img:nth-of-type(4) {
+	background: red;
+	width: 100%;
+	height: 130px;
+}
+*/
+
+.future-treks h2 {
+    text-align: left;
+    font: 18px/23px Muli;
+    font-weight: 1000;
+    letter-spacing: 0;
+    color: #1A1746;
+    margin: 0 0 0 17px;
+    opacity: 1;
+}
+
+.future-treks .where {
+    display: inline-flex;
+    margin-left: 17px;
+}
+
+.future-treks .where img {
+    width: 8px;
+    height: 12px;
+}
+
+.future-treks h4 {
+    text-align: left;
+    font: 12px/15px Muli;
+    letter-spacing: 0;
+    color: #1A1746;
+    margin: 0 0 0 5px;
+    opacity: 1;
+}
+
+div.fixed-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.future-treks .extra-info {
+    display: inline-flex;
+    margin-left: 17px;
+    margin-top: 14px;
+}
+
+.future-treks .extra-info img {
+    width: 90%;
+    height: 90%;
+}
+
+.future-treks .extra-info span {
+    text-align: left;
+    font: 12px/15px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #1A1746;
+    margin: 0 8px 0 2px;
+    opacity: 1;
+}
+
+.future-treks h5 {
+    text-align: left;
+    font: 14px/18px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin: 0 0 10px 0;
+    color: #1A1746;
+}
+
+.future-treks h6 {
+    text-align: left;
+    font: 10px/13px Muli;
+    letter-spacing: 0;
+    color: #888888;
+    margin-top: 10px;
+    margin-bottom: 0;
+    opacity: 1;
+}
+
+.future-treks .detail-btn {
+    position: absolute;
+    /*	display: block;*/
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 108px;
+    height: 30px;
+    outline: none;
+    background: transparent;
+    border: 0;
+}
+
+.detail-btn img {
+    height: 100%;
+    width: 100%;
+}
+
+.future-treks .show-more {
+    position: absolute;
+    text-align: center;
+    font: 14px/18px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    background: #9B9898 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000033;
+    border-radius: 30px;
+    left: 0;
+    right: 0;
+    margin: 60px auto 0 auto;
+    border: 0;
+}

@@ -1,0 +1,328 @@
+@import 'commonFooter600up.css';
+@import 'modal600up.css';
+body,
+html {
+    width: 100%;
+}
+
+body {
+    background: #ECEFF1;
+    position: relative;
+}
+
+body>div {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*  loader css start here*/
+
+.loader-outer {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-outer-progress {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-icon {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.loader-outer img {
+    width: 80px;
+}
+
+.loader_spin {
+    overflow: hidden;
+    display: table;
+}
+
+.loader-inner p {
+    font-size: 18px;
+    color: #b99750;
+    font-weight: bold;
+}
+
+
+/*  loader css end here*/
+
+.header {
+    /*width: 1084px ! important;*/
+    height: 70px;
+    margin: 0 auto;
+    filter: blur(14px), brightness(-0.4), opacity(50%);
+    /*column-gap: 5px;*/
+}
+
+.logo img {
+    height: 37px;
+    width: 148px;
+    margin-top: 16px;
+}
+
+.certify>.row>.dropdown {
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.certify>.row>.dropdown>a {
+    text-align: left;
+    font: 28px/35px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 0 -25px;
+}
+
+.certify>.row>.dropdown>a:hover,
+.certify>.row>.dropdown>a:active,
+.certify>.row>.dropdown>a:visited {
+    text-decoration: none;
+}
+
+.login-status .dropdown {
+    margin-top: 0;
+}
+
+.login-status .dropdown-menu {
+    top: 45px;
+    left: -18px;
+    float: right;
+    margin: 5px 0px 0 20px;
+}
+
+.header .btn-primary {
+    background-image: linear-gradient(to right, blue, #4d88ff);
+    margin-top: 20px;
+    height: 30px;
+    width: 164px;
+    font-size: 12px;
+    float: right;
+}
+
+
+/*#myModalLogin*/
+
+
+/*#myModalReset*/
+
+.trek-pagination {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.trek-pagination h2 {
+    text-align: center;
+    font: 18px/23px Muli;
+    letter-spacing: 0;
+    color: #6E6E6E;
+    margin: 0;
+}
+
+.trek-pagination span {
+    color: #039BE5;
+}
+
+.trek-place {
+    /* width: 1084px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trek-place>div>img {
+    width: 100%;
+    height: 366px;
+    display: block;
+    margin: 0 auto;
+}
+
+.trek-place-detail {
+    background: white 0% 0% no-repeat padding-box;
+    border: 1px solid #0088FF;
+    height: 366px;
+    padding: 30px 10px 0;
+}
+
+.trek-place-detail .row {
+    margin: 0;
+}
+
+.trek-place-detail h1 {
+    overflow-wrap: break-word;
+    text-align: left;
+    font: 28px Muli;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #1A1746;
+    margin: 0 0 5px 0;
+}
+
+.trek-place-detail h2 {
+    text-align: left;
+    font: 18px/23px Muli;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #024959;
+    margin: 5px 0 15px;
+}
+
+.trek-place-detail h3 {
+    text-align: left;
+    font: 20px/25px Muli;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #024959;
+    margin: 25px 0 0;
+}
+
+.trek-place-detail h6 {
+    text-align: center;
+    font: 25px Muli;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #FF5700;
+    margin: 0px 0 0 0;
+}
+
+.trek-place-detail h4 {
+    text-align: center;
+    font: 52px/60px Muli;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #FF5700;
+    margin: 0;
+}
+
+.guide-amount {
+    position: absolute;
+    bottom: 130px;
+    left: 10px;
+    margin: 0 40px 0 0;
+}
+
+.guide-amount-dynamic {
+    position: absolute;
+    bottom: 120px;
+    left: 10px;
+    margin: 0;
+}
+
+.amount span {
+    text-align: left;
+    font: 14px/18px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #888888;
+}
+
+.amount>h5 {
+    text-align: left;
+    font: 32px/40px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #039BE5;
+    margin: 0;
+}
+
+.trek-place-detail form {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.trek-place-detail form .input-group {
+    width: 100%;
+    background-color: #E8ECFF;
+    padding: 6px;
+}
+
+.trek-place-detail form input {
+    width: 50px;
+    height: 34px;
+    font: 20px/25px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #1A1746;
+    padding: 0 0 0 15px;
+    background: #FFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #707070;
+    border-radius: 3px;
+}
+
+.trek-place-detail form input::placeholder {
+    text-align: center;
+    font: 20px/25px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #1A1746;
+}
+
+.trek-place-detail form span {
+    text-align: left;
+    font: 18px/23px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #024959;
+    margin: 15px;
+    padding: 0 25px 0 15px;
+}
+
+.trek-place-detail form span.pmsign {
+    cursor: pointer;
+    text-align: left;
+    font: 25px/30px Muli;
+    font-weight: 900;
+    padding: 0;
+}
+
+.trek-place-detail form button {
+    text-align: center;
+    font: 28px/35px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    background: #FF5700 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    border: 0;
+}
