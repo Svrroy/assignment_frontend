@@ -1,6 +1,6 @@
 $.ajax({
     "method": "GET",
-    "url": "http://localhost/blog/api/fetch",
+    "url": "http://localhost/assignment_backend/api/fetch",
     "headers": {
         "Content-Type": "application/json",
         "Authorization": "$2y$10$c1aPWd41DDEDVnsl9E58aeaL.hMHOThloXLsEXwrpbctkOU/hrMem"

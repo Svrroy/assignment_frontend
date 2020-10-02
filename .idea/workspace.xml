@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b61e585-57cf-4aa7-a3fa-ba2a1feef701" name="Default Changelist" comment="" />
+    <list default="true" id="9b61e585-57cf-4aa7-a3fa-ba2a1feef701" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotelDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/hotelDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +13,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iGnXO0gcEA33ifZDQdywYJGorn" />
   <component name="ProjectViewState">
@@ -33,6 +40,7 @@
       <workItem from="1601582631441" duration="2264000" />
       <workItem from="1601585731419" duration="2719000" />
       <workItem from="1601620103171" duration="3056000" />
+      <workItem from="1601626512856" duration="38000" />
     </task>
     <servers />
   </component>
@@ -51,7 +59,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/hotelDetail.js</url>
           <line>1</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

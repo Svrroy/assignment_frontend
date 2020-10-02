@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $.ajax({
         "method": "POST",
-        "url": "http://localhost/blog/api/details",
+        "url": "http://localhost/assignment_backend/api/details",
         "headers": {
             "Content-Type": "application/json"
         },
